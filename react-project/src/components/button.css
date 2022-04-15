@@ -1,0 +1,15 @@
+.Button {
+    display: inline-block;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 252, 252, .2);
+    border-radius: 14px;
+    
+    height: 64px;
+    width: 400px;
+    box-shadow: 2px 2px 41px rgba(0, 0, 0, .25);
+    text-align: center;
+    
+    color: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
