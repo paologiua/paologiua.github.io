@@ -26,8 +26,7 @@
 
 .presentation {
     display: inline-block;
-
-    margin: 60px 0;
+    max-width: 100%;
 }
 
 .presentation > p {
@@ -36,9 +35,15 @@
     font-weight: bold;
 }
 
+.presentation > .Button {
+    height: 64px; 
+    width: 400px;
+    max-width: 100%;
+}
+
 .profile-image {
-    height: 600px;
     width: 600px;
+    height: auto;
     max-width: 100%;
     object-fit: cover;
     border: 20px #223E35 solid;
@@ -49,4 +54,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.section {
+    position: relative;
+    padding: 0 20px;
+    position: relative;
+    top: 80px;
+    height: calc(100% - 80px);
+}
+
+.section > div {
+    display: inline-block;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section .item-section {
+    display: inline-block;
+    width: 550px;
+    max-width: 100%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section .item-section > * {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1200px) {
+    .section .item-section {
+        position: relative;
+        top: 0;
+        transform: none;
+        display: block;
+        margin: 60px 0;
+    }
+
 }
