@@ -50,6 +50,7 @@
     object-fit: cover;
     border: 20px #223E35 solid;
     border-radius: 24px;
+    background-color: #223E35;
 }
 
 .centered-content {
