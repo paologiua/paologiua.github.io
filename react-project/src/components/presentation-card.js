@@ -11,7 +11,7 @@ function PresentationCard() {
         <div className="PresentationCard">
             <div className="bkg">
                 <img className="image" src={bkgImage} alt=""></img>
-                <div className="blur-filter"></div>
+                {/* <div className="blur-filter"></div> */}
             </div>
             <div class="section">
                 <div>

@@ -8,6 +8,8 @@
     width: 100%;
     border-radius: 0 0 14px 14px;
     overflow: hidden;
+
+    background-color: #100e0a;
 }
 
 .bkg > .image {
@@ -16,6 +18,7 @@
     object-fit: cover;
     position: absolute;
     
+    filter: blur(4px);
 }
 
 .bkg > .blur-filter {
