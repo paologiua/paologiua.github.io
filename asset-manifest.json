@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.327563d1.css",
-    "main.js": "/static/js/main.9b2710b1.js",
+    "main.css": "/static/css/main.7daa976c.css",
+    "main.js": "/static/js/main.18ac016e.js",
     "static/js/787.a2016791.chunk.js": "/static/js/787.a2016791.chunk.js",
     "static/media/bkg-image.jpg": "/static/media/bkg-image.322eafddf552f48cd9d1.jpg",
     "static/media/profile-image.png": "/static/media/profile-image.2c9368ec536e9aac1081.png",
@@ -13,15 +13,15 @@
     "static/media/manrope-regular.otf": "/static/media/manrope-regular.0fb14d91f2c0471c9fa0.otf",
     "static/media/manrope-thin.otf": "/static/media/manrope-thin.b3b5235c0f7c8e3205ec.otf",
     "static/media/logo.svg": "/static/media/logo.607e4b3bba70a359fbb2fc95015f7f82.svg",
-    "index.html": "/index.html",
     "static/media/dark-mode.svg": "/static/media/dark-mode.6decedf3cbbdce7b937c4fa14f710905.svg",
+    "index.html": "/index.html",
     "static/media/mail.svg": "/static/media/mail.27d1fb5fec1505a497c2a459d3358cf9.svg",
-    "main.327563d1.css.map": "/static/css/main.327563d1.css.map",
-    "main.9b2710b1.js.map": "/static/js/main.9b2710b1.js.map",
+    "main.7daa976c.css.map": "/static/css/main.7daa976c.css.map",
+    "main.18ac016e.js.map": "/static/js/main.18ac016e.js.map",
     "787.a2016791.chunk.js.map": "/static/js/787.a2016791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.327563d1.css",
-    "static/js/main.9b2710b1.js"
+    "static/css/main.7daa976c.css",
+    "static/js/main.18ac016e.js"
   ]
 }
