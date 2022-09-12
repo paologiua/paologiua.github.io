@@ -1,11 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import './button.css';
+import './button.scss';
 
-class Button extends Component {
+interface ButtonProps {
+    svg?: React.ElementType;
+    text?: string;
+}
+
+class Button extends Component<ButtonProps> {
 
     render() {
-        const SVG = this.props.svg ? this.props.svg : () => {return <></>};
+        const SVG: React.ElementType = this.props.svg || (() => <></>);
         return (
             <div className="Button">
                 <div>

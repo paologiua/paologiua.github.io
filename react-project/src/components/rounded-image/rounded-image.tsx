@@ -1,11 +1,17 @@
-import React, {Component} from 'react';
 
-import './rounded-image.css';
+import React, { Component } from 'react';
 
-class RoundedImage extends Component {
+import './rounded-image.scss';
+
+interface RoundedImageProps {
+    svg?: React.ElementType;
+    text?: string;
+}
+
+class RoundedImage extends Component<RoundedImageProps> {
 
     render() {
-        const SVG = this.props.svg ? this.props.svg : () => {return <></>};
+        const SVG: React.ElementType = this.props.svg || (() => <></>);
         return (
             <div className="RoundedImage">
                 <div>
